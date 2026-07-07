@@ -40,7 +40,8 @@ jobs:
 
       - name: Show GitHub Variables
         run: |
-          echo "APP_VERSION: ${{ vars.APP_VERSION }}"
+          echo "App Version: ${{ vars.APP_VERSION }}"
+          echo "Node Version: ${{ vars.NODE_VERSION }}"
 
       # Runs a set of commands using the runners shell
       - name: Build
