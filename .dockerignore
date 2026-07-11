@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+Dockerfile
+dockerfile
+.git
+.gitignore
+.github
+.vscode
+coverage
+*.md
